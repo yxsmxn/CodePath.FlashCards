@@ -19,7 +19,7 @@ class ViewController: UIViewController {
         
         AnswerBackLabel.layer.cornerRadius = 20.0
         QuestionFrontLabel.layer.cornerRadius = 20.0
-        
+        ///card layers
         card.layer.cornerRadius = 20.0
         card.layer.shadowRadius = 15.0
         card.layer.shadowOpacity = 0.2

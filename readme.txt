@@ -10,7 +10,7 @@
 ### App Walk-though
 `TODO://` 
 
-<img src="FlashCardsGif.gif" width=200><br>
+<img src="FlashCardsGif.gif" width=400><br>
 
 `TODO://` 
 

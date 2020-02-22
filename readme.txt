@@ -5,12 +5,12 @@
 ## Lab 1
 
 ### App Description
-`TODO://` Create a functional app that toggles through a question and answer.
+`TODO://` Create a functional app that toggles through a question and answer with rounded corners and a shadow.
 
 ### App Walk-though
 `TODO://` 
 
-<img src="FlashCards.gif" width=200><br>
+<img src="FlashCardsGif.gif" width=200><br>
 
 `TODO://` 
 

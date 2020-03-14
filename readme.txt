@@ -1,5 +1,25 @@
 ## FlashCards
 
+## Lab 3
+
+### App Description
+`TODO://`Update various flashcards allowing used to skip through them
+
+### App Walk-though
+
+<img src="Week5.gif" width=200><br>
+
+## Required
+- [X] User can browse through multiple flashcards
+- [X] User can re-open the app and see previously created flashcards
+- [X] Push code to GitHub
+## Optional
+- [ ] User can delete a flashcard
+- [ ] User can edit existing flashcard
+- [ ] User can store multiple choice questions
+
+
+
 ## Lab 2
 
 ### App Description

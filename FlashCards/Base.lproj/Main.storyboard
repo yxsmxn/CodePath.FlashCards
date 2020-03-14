@@ -46,11 +46,25 @@
                                 <rect key="frame" x="157" y="745" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="70"/>
-                                <state key="normal" title="+">
-                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
-                                </state>
+                                <state key="normal" title="+"/>
                                 <connections>
                                     <segue destination="1PC-0O-uiJ" kind="presentation" destinationCreationSelector="prepare:" id="LFP-kk-gqa"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fx9-Mi-nZN">
+                                <rect key="frame" x="28" y="767" width="77" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Prev"/>
+                                <connections>
+                                    <action selector="didTapOnPrev:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EIz-dp-kwZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lwc-Wm-dk9">
+                                <rect key="frame" x="328" y="767" width="66" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Next"/>
+                                <connections>
+                                    <action selector="didTapOnNext:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vdQ-a2-hgw"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -61,6 +75,8 @@
                         <outlet property="AnswerBackLabel" destination="9W5-H9-k5k" id="osF-ji-uIR"/>
                         <outlet property="QuestionFrontLabel" destination="NjC-Ha-ZgW" id="5yH-WX-mKk"/>
                         <outlet property="card" destination="PVF-7a-J2h" id="d8b-0E-mhi"/>
+                        <outlet property="nextButton" destination="Lwc-Wm-dk9" id="zyz-HI-9YR"/>
+                        <outlet property="prevButton" destination="fx9-Mi-nZN" id="5Bw-0E-Nai"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -96,6 +112,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="7ly-Jo-3TI"/>
                     </view>
+                    <toolbarItems/>
                     <navigationItem key="navigationItem" id="pII-ss-atz">
                         <barButtonItem key="leftBarButtonItem" title="Cancel" id="wMn-6z-Bff">
                             <connections>
@@ -108,6 +125,7 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="AnswerTextField" destination="hP6-T2-5r1" id="xPJ-rO-5oM"/>
                         <outlet property="QuestionTextField" destination="aOa-9Z-oov" id="buX-Oa-w7p"/>
